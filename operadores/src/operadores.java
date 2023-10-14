@@ -9,6 +9,13 @@ public class operadores {
         bool = !bool;
         System.out.println(bool);
 
+        int a, b;
+        a = 2;
+        b = 5;
+
+        String result = (a==b) ? "a = b" : "a != b";
+        System.out.println(result);
+
 
     }
 }
